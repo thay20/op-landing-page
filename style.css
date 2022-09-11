@@ -79,6 +79,7 @@ button {
     color: #1F2937;
     flex: 1;
     padding: 32px;
+    flex-wrap: wrap;
 }
 
 .info-header {
@@ -91,7 +92,7 @@ button {
 .content {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -115,6 +116,7 @@ button {
     align-items: center;
     justify-content: center;
     color: #1F2937;
+    flex: 0 1 auto;
 }
 
 .quote {
